@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './index.module.css';
 
-export default function Info() {
+/* eslint-disable react/prop-types */
+export default function Info({ data }) {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <div>http://www.heroku.com/api/furkanportakalx/submit</div>
+        <div>{data}</div>
         <button className={styles.btn}>Get Document</button>
       </div>
     </div>
