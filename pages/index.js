@@ -6,6 +6,7 @@ import Info from '@c/info';
 import Result from '@c/result';
 
 function LandingPage() {
+ // eslint-disable-next-line no-unused-vars
   const [screen, setScreen] = useState(1);
   return (
     <>
