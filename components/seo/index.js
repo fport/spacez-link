@@ -11,7 +11,7 @@ export default function Seo({ title }) {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <link rel="icon" href="/kodizim.ico" />
-      <title>Kodizim - {title}</title>
+      <title>Space⚡ - {title}</title>
       <meta name="description" content="Kodizm - İzini Koda Bırak" />
       <meta name="yandex-verification" content="6adff61af2926794" />
       <meta name="twitter:card" content="summary" />

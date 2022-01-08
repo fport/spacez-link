@@ -1,0 +1,16 @@
+.container {
+    @apply flex flex-col items-center justify-center mt-64 w-full;
+}
+
+.content {
+    @apply flex items-center justify-start flex-col w-full text-gray bg-gray w-400 p-large rounded-2xl;
+}
+
+.contentInput {
+    @apply w-full h-32 flex my-10 max-w-400 border-0;
+}
+
+.btn {
+    @apply text-white p-8 w-200 mt-8;
+
+}
