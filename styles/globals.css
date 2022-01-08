@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-color: #2f455c;
+  --secondary-color: #5affc9;
+  --shadow-color: #355576;
+  --danger-color: #e53549;
+  --warning-color: #ffcf5c;
+  --success-color: #00c48c;
+  --info-color: #f4f6f9;
+  --light-color: #f4f6f9;
+  --gray-color: #6c757d;
+  --discord-color: #5165f6;
+  --white: #fff;
+}
+
+@layer base {
+  html {
+    @apply select-none;
+  }
+  body {
+    @apply bg-primary m-0 antialiased font-primary text-16 font-bold;
+  }
+  a {
+    @apply no-underline hover:text-secondary visited:text-secondary;
+  }
+  li {
+    @apply list-none p-0;
+  }
+  ol,
+  ul {
+    @apply list-none m-0 p-0;
+  }
+}
+
+a:link {
+  color: #5affc9;
+}

@@ -1,12 +1,9 @@
 import React from 'react';
+import '@s/globals.css';
 
 /* eslint-disable react/prop-types */
 function MyApp({ Component, pageProps }) {
-  return (
-    <div className="container mx-auto my-10 max-w-xl">
-      <Component {...pageProps} />
-    </div>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

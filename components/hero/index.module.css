@@ -1,3 +1,3 @@
 .heroTitle {
-    @apply text-3xl font-bold underline text-blue-600/100
+    @apply text-24 text-secondary mx-auto;
 }

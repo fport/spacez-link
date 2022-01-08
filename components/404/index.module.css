@@ -1,8 +1,7 @@
 .error {
-  /* @apply full:container text-secondary mx-auto text-center text-36  xs:p-32 md:p-95; */
-    @apply flex items-center justify-center w-screen h-screen bg-indigo-600
+  @apply full:container text-secondary mx-auto text-center text-36  xs:p-32 md:p-95;
 }
 
 .errorText {
-    @apply text-5xl text-white md:text-7xl lg:text-9xl
+    @apply text-36 text-primary;
 }
