@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #2f455c;
-  --secondary-color: #5affc9;
-  --shadow-color: #355576;
+  --primary-color: #282C34;
+  --secondary-color: #5FF59B;
+  --shadow-color: #636363;
   --danger-color: #e53549;
   --warning-color: #ffcf5c;
   --success-color: #00c48c;
   --info-color: #f4f6f9;
   --light-color: #f4f6f9;
-  --gray-color: #6c757d;
-  --discord-color: #5165f6;
+  --gray-color: #37474F;
+  --bacground-color: #272727;
   --white: #fff;
 }
 

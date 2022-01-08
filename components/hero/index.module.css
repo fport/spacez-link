@@ -1,3 +1,15 @@
+.container {
+    @apply flex flex-col items-center justify-center mt-64;
+}
+
 .heroTitle {
-    @apply text-24 text-secondary mx-auto;
+    @apply text-h2 text-secondary ;
+}
+
+.content {
+    @apply flex  max-w-3/4;
+}
+
+.contentText {
+    @apply flex items-center max-w-400 mr-32 text-white;
 }
