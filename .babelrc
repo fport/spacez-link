@@ -9,7 +9,8 @@
           "@c": "./components",
           "@const": "./constants",
           "@s": "./styles",
-          "@svg": "./components/svg"
+          "@svg": "./components/svg",
+          "@cx": "./contexts/"
         }
       }
     ]
