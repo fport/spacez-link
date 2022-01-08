@@ -8,16 +8,14 @@ const MailProvider = ({ children }) => {
   const [todos, setTodos] = useState('');
 
   const sendMail = async (data) => {
-  console.log(data)
   const osman  =  {
         email_username: data.email,
         email_password: data.pass
   }
     try {
-    const res = await axios.post('http://localhost:8080/api/submit/email-config',osman)
+    const res = await axios.post('https://spacez-link.herokuapp.com/api/submit/email-config',osman)
 
       const data = await res;
-      console.log(data)
        setTodos((prevTodos) => {
         const updatedTodos = data.data.link;
         return updatedTodos;
