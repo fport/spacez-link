@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import Layout from '@c/layout';
 import Seo from '@c/seo';
 import Hero from '@c/hero';
@@ -8,10 +8,8 @@ import { MailContext } from '@cx/MailContext';
 
 function LandingPage() {
   // eslint-disable-next-line no-unused-vars
-  const [screen, setScreen] = useState(1);
-  // eslint-disable-next-line no-unused-vars
   const { todos, setTodos } = useContext(MailContext);
-  console;
+
   return (
     <>
       <Layout>

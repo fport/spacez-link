@@ -10,7 +10,8 @@
           "@const": "./constants",
           "@s": "./styles",
           "@svg": "./components/svg",
-          "@cx": "./contexts/"
+          "@cx": "./contexts/",
+          "@utils": "./utils"
         }
       }
     ]

@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "babel-plugin-module-resolver": "^4.1.0",
+    "copy-to-clipboard": "^3.3.1",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"

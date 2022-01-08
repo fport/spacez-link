@@ -3,7 +3,7 @@
 }
 
 .content {
-    @apply flex items-center justify-start flex-col w-full text-gray bg-gray w-400 p-large rounded-2xl;
+    @apply flex items-center justify-center flex-col w-full text-gray bg-gray w-400 p-large rounded-2xl;
 }
 
 .contentInput {
@@ -11,6 +11,14 @@
 }
 
 .btn {
-    @apply text-white p-8 w-200 mt-8;
+    @apply text-secondary p-8 w-200 mt-8;
 
+}
+
+.link {
+    @apply text-white cursor-pointer;
+}
+
+.copy {
+    @apply text-white;
 }
