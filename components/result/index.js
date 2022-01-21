@@ -14,6 +14,9 @@ export default function Info({ data }) {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
+        <label htmlFor="email-succes" className={styles.title}>
+          POST - API URL
+        </label>
         <div className={styles.link} onClick={() => copyToClipboard(data)}>
           {data}
         </div>

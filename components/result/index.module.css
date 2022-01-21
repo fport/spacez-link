@@ -3,7 +3,7 @@
 }
 
 .content {
-    @apply flex items-center justify-center flex-col w-full text-gray bg-gray w-400 p-large rounded-2xl;
+    @apply flex items-center justify-center flex-col w-full text-gray bg-shadow max-w-600 p-large rounded-2xl;
 }
 
 .contentInput {
@@ -11,14 +11,18 @@
 }
 
 .btn {
-    @apply text-secondary p-8 w-200 mt-8;
+    @apply w-200 mt-8 text-secondary bg-gray p-8 rounded-2xl flex items-center justify-center mt-24;
 
 }
 
 .link {
-    @apply text-white cursor-pointer;
+    @apply text-white cursor-pointer text-center bg-gray rounded-2xl p-8;
 }
 
 .copy {
     @apply text-white;
+}
+
+.title {
+    @apply text-secondary mb-10;
 }

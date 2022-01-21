@@ -16,7 +16,7 @@
 }
 
 .emailLabel {
-    @apply text-secondary !important;
+    @apply text-secondary;
 }
 
 .errText {
