@@ -1,6 +1,7 @@
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
+  important: true,
   theme: {
     screens: {
       full: { max: '320px' },
@@ -12,6 +13,7 @@ module.exports = {
       xxl: '1536px',
     },
     width: {
+      100: '100px',
       200: '200px',
       400: '400px',
       full: '100%',
@@ -20,8 +22,11 @@ module.exports = {
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%',
+      600: '600px',
+      500: '500px',
       400: '400px',
       200: '200px',
+      100: '100px',
       full: '100%',
       max: 'max-content',
     },
