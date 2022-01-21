@@ -12,10 +12,10 @@
 ## Figma Design
 [Click](https://www.figma.com/file/5rJZnc5YOrMM9zI0zEcgup/spacez-link?node-id=2%3A1494) for design page.
 
-<h2 align="center">Preview</h2>
+## Example Usage
+[Click](https://github.com/fport/spacez-link-basic-example) for basic example usage.
 
-## Example Useage
-[click](https://github.com/fport/spacez-link-basic-example) for basic example useage.
+<h2 align="center">Preview</h2>
 
 <br>
 
