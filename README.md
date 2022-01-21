@@ -2,7 +2,7 @@
     <img src="https://user-images.githubusercontent.com/56169582/150584167-a9595243-97c7-41a2-8f66-2e22c8ddd91b.png" />
 </div>
 <p align="center">
-  This is a project that makes easy integrate email service. 
+  This is a project that makes easy to integrate email service. 
 </p>
 <br>
 
