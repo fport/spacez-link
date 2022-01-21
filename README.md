@@ -14,6 +14,9 @@
 
 <h2 align="center">Preview</h2>
 
+## Example Useage
+[click](https://github.com/fport/spacez-link-basic-example) for basic example useage.
+
 <br>
 
 ![Preview](https://user-images.githubusercontent.com/56169582/150584640-20df2ffd-9785-41cc-8647-0f406b640eb9.png)
