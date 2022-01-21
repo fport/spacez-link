@@ -1,0 +1,7 @@
+.container {
+    @apply flex flex-col items-center justify-center mt-64 w-full;
+}
+
+.content {
+    @apply flex items-center justify-start flex-col w-full text-gray bg-shadow max-w-600 p-large rounded-2xl;
+}

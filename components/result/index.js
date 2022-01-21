@@ -21,7 +21,7 @@ export default function Info({ data }) {
           {data}
         </div>
         <span className={styles.copy}>{isCopied && 'kopyalandi'}</span>
-        <Link href="/result">
+        <Link href="/docs">
           <a className={styles.btn}>Get Document</a>
         </Link>
       </div>
