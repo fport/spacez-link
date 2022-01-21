@@ -2,7 +2,8 @@ import React, { useState, useEffect, useContext } from 'react';
 import styles from './index.module.css';
 import { MailContext } from '@cx/MailContext';
 
-export default function Info() {
+export default function Info(props) {
+  const p = props;
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
   const [err, setErr] = useState(false);
@@ -12,6 +13,14 @@ export default function Info() {
   useEffect(() => {
     if (email && pass) setErr(false);
   }, [email, pass]);
+
+  useEffect(() => {
+    if (p.error) {
+      setTimeout(() => {
+        p.removeError();
+      }, [3000]);
+    }
+  }, [p.error]);
 
   /* eslint-disable */
   const validateEmail = (email) => {
@@ -34,12 +43,22 @@ export default function Info() {
     setPass('');
   };
 
+  const isLoading = () => {
+    return <span className={styles.errText}>Loading</span>;
+  };
+
+  const errorHandler = () => {
+    return <span className={styles.errText}>{p.error}</span>;
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.content}>
         {err && (
           <span className={styles.errText}>You must fill in the blanks</span>
         )}
+        {p.error && !p.isLoading && errorHandler()}
+        {!p.error && p.isLoading && isLoading()}
         <form onSubmit={handleSubmit}>
           <label className={styles.emailLabel}>Sender E-Mail</label>
           <input
